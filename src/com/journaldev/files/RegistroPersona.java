@@ -6,7 +6,9 @@ public class RegistroPersona {
     String nombreF,dniF,edadF,registro;
     int posRegistro;
 
-    RegistroPersona(String nombre,String dni,String edad){
+    RegistroPersona(String nombre,String dni,String edad ,int posRegistro){
+
+        this.posRegistro=posRegistro;
          this.nombre=nombre;
          this.dni=dni;
          this.edad=edad;
